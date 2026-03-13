@@ -9,7 +9,7 @@ struct cricket{
 struct cricket p1;
 int main() {
     int i;
-    for(i=0;i<2;i++){
+    for(i=0;i<11;i++){
         
         printf("type name of cricketer : ");
         scanf("%s",&p1.name);
@@ -21,7 +21,7 @@ int main() {
          scanf("%d",&p1.avgrun);
          
     }
-  for(int i=0;i<2;i++){
+  for(int i=0;i<11;i++){
       printf("Name = %s\n",p1.name);
        printf("age = %d\n",p1.age);
         printf("number of match played = %d\n",p1.nom);
